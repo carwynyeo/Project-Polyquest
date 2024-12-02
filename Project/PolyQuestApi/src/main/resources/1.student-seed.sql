@@ -1,0 +1,22 @@
+INSERT INTO student (authattempts, authmethod, createdat, email, isemailpassword, lastauthattemptat, name, oauth_fb, oauth_google, password, updatedat)
+VALUES
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user1.doe' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '1 day', 'User One', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user2.doe' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '2 days', 'User Two', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user3.smith' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '3 days', 'User Three', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user4.jones' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '4 days', 'User Four', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user5.brown' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '5 days', 'User Five', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user6.doe' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '6 days', 'User Six', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user7.doe' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '7 days', 'User Seven', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user8.jones' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '8 days', 'User Eight', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user9.brown' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '9 days', 'User Nine', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user10.doe' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '10 days', 'User Ten', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user11.doe' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '11 days', 'User Eleven', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user12.jones' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '12 days', 'User Twelve', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user13.smith' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '13 days', 'User Thirteen', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user14.brown' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '14 days', 'User Fourteen', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user15.doe' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '15 days', 'User Fifteen', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user16.smith' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '16 days', 'User Sixteen', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user17.brown' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '17 days', 'User Seventeen', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user18.jones' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '18 days', 'User Eighteen', NULL, NULL, '123', NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'google', NOW(), 'user19.doe' || FLOOR(RANDOM() * 1000) || '@example.com', FALSE, NOW() - INTERVAL '19 days', 'User Nineteen', NULL, 'google-' || FLOOR(RANDOM() * 10000), NULL, NOW()),
+    (FLOOR(RANDOM() * 5) + 1, 'emailpassword', NOW(), 'user20.smith' || FLOOR(RANDOM() * 1000) || '@example.com', TRUE, NOW() - INTERVAL '20 days', 'User Twenty', NULL, NULL, '123', NOW());
